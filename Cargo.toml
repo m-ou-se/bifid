@@ -1,0 +1,13 @@
+[package]
+name = "bifid"
+description = "A tool to encrypt and decrypt text using the Bifid cipher."
+version = "1.0.0"
+authors = ["Mara Bos <m-ou.se@m-ou.se>"]
+edition = "2018"
+keywords = ["bifid", "cypher"]
+license = "BSD-2-Clause"
+repository = "https://github.com/m-ou-se/bifid"
+
+[dependencies]
+itertools = "0.8"
+structopt = "0.2"
